@@ -7,10 +7,14 @@
 //全站樣式
 @import "base";
 
+//元件樣式
+@import "components";
+
 //共同版型
 @import "layout";
 
 //未歸類樣式
 @import "utils";
 
+//RWD樣式
 @import "rwd";

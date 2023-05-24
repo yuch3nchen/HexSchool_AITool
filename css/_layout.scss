@@ -7,17 +7,13 @@
 .justify-content-between{
     justify-content: space-between;
 }
-.justify-content-end{
-    justify-content: flex-end;
-}
 .align-center{
     align-items: center;
 }
+
+//border
 .bg-white{
     background-color: $white;
-}
-.bd-bottom{
-    border-bottom: 1px solid $white;
 }
 .bd-top{
     border-top: 1px solid $white;
@@ -29,59 +25,29 @@
     border: 1px solid $bg-gray;
 }
 
-.my-20{
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
+//spacers
 .my-40{
-    margin-top: 40px;
-    margin-bottom: 40px;
-}
-.my-80{
-    margin-top: 80px;
-    margin-bottom: 80px;
+    margin-top: $spacer-40;
+    margin-bottom: $spacer-40;
 }
 .mb-160{
-    margin-bottom: 160px;
+    margin-bottom: $spacer-40 *4;
 }
 .mb-12{
-    margin-bottom: 12px;
-}
-.mb-24{
-    margin-bottom: 24px;
-}
-.mb-40{
-    margin-bottom: 40px;
-}
-.mb-80{
-    margin-bottom: 80px;
+    margin-bottom: $spacer-12;
 }
 .mr-12{
-    margin-right: 12px;
+    margin-right: $spacer-12;
 }
 .py-12{
-    padding-top: 12px;
-    padding-bottom: 12px;
-}
-.py-20{
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-.px-40{
-    padding-left: 40px;
-    padding-right: 40px;
-}
-.py-80{
-    padding-top: 80px;
-    padding-bottom: 80px;
-}
-.py-160{
-    padding-top: 160px;
-    padding-bottom: 160px;
+    padding-top: $spacer-12;
+    padding-bottom: $spacer-12;
 }
 .pd-20-32{
     padding: 20px 32px;
 }
+
+//fonts
 .font-size-regular{
     font-size: $font-size-default;
 }
@@ -109,6 +75,8 @@
 .text-align-center{
     text-align: center;
 }
+
+//pointer
 .pointer{
     cursor: pointer;
   }
