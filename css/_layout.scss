@@ -1,0 +1,114 @@
+.d-flex{
+    display: flex;
+}
+.flex-wrap{
+    flex-wrap: wrap;
+}
+.justify-content-between{
+    justify-content: space-between;
+}
+.justify-content-end{
+    justify-content: flex-end;
+}
+.align-center{
+    align-items: center;
+}
+.bg-white{
+    background-color: $white;
+}
+.bd-bottom{
+    border-bottom: 1px solid $white;
+}
+.bd-top{
+    border-top: 1px solid $white;
+}
+.bd-top-gray{
+    border-top: 1px solid $dark-gray;
+}
+.bd-gray{
+    border: 1px solid $bg-gray;
+}
+
+.my-20{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.my-40{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.my-80{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.mb-160{
+    margin-bottom: 160px;
+}
+.mb-12{
+    margin-bottom: 12px;
+}
+.mb-24{
+    margin-bottom: 24px;
+}
+.mb-40{
+    margin-bottom: 40px;
+}
+.mb-80{
+    margin-bottom: 80px;
+}
+.mr-12{
+    margin-right: 12px;
+}
+.py-12{
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+.py-20{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.px-40{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.py-80{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.py-160{
+    padding-top: 160px;
+    padding-bottom: 160px;
+}
+.pd-20-32{
+    padding: 20px 32px;
+}
+.font-size-regular{
+    font-size: $font-size-default;
+}
+.font-size-large{
+    font-size: $font-size-large;
+}
+.font-size-xlarge{
+    font-size: $font-size-xlarge;
+}
+.bold{
+    font-weight: $font-weight-bold;
+}
+.bolder{
+    font-weight: $font-weight-bolder;
+}
+.lh-2{
+    line-height: 1.2;
+}
+.lh-3{
+    line-height: 1.5;
+}
+.text-muted{
+    color: $gray;
+}
+.text-align-center{
+    text-align: center;
+}
+.pointer{
+    cursor: pointer;
+  }

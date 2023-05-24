@@ -1,0 +1,135 @@
+@media (max-width:375px){
+    .container{
+        max-width: 351px;
+    }
+    .title{
+        &-section{
+            img{
+                width: 50%;
+            }
+            .menu{
+                display: block;
+
+            }
+            ul{
+                display: none;
+            }
+        }
+    }
+    .intro{
+        &-section{
+            h2{
+                max-width: 192px;
+                font-size: 48px;
+            }
+            h3{
+                max-width: 257px;
+                font-size: 28px;
+            }
+        }
+    }
+    .animation{
+        &-section{
+            display: flex;
+            justify-content: center;
+            img{
+                width: 30%;
+            }
+        }
+    }
+    .pricing{
+        &-section{
+            .card{
+                max-height: 240px;
+            }
+        }
+    }
+    .rules{
+        &-section{
+            flex-direction: column;
+            h4{
+                font-size: 20px;
+                margin-bottom: 48px;
+            }
+            ul{
+                width: 100%;
+            }
+            h5{
+                font-size: 32px;
+            }
+            p{
+                font-size: $font-size-default;
+            }
+        }
+    }
+    .tool{
+        &-section{
+            h3{
+                width: 80%;
+                margin: 0 auto 32px;
+                font-size: $font-size-large;
+            }
+            &-card{
+                li:not(:last-child){
+                    margin-bottom: 12px;
+                }
+            }
+        }
+    }
+    .bg-white{
+        border-radius: 20px;
+    }
+    .filter{
+        &-section{
+            flex-wrap: wrap;
+        }
+        &-type{
+            order:3;
+            overflow-x: scroll;
+            white-space: nowrap;
+            margin-top: 16px;
+        }
+    }
+    .qa{
+        &-section{
+            flex-direction: column;
+            &-left{
+                h4{
+                    font-size: 20px;
+                    margin-bottom: 24px;
+                }
+            }
+            &-right{
+                width: 100%;
+            }
+        }
+    }
+    .bottom {
+        &-section {
+          flex-direction: column-reverse;
+          &-left {
+            h2 {
+              font-size: 48px;
+            }
+          }
+          &-right {
+            margin-bottom: 40px;
+            img {
+              width: 70%;
+            }
+          }
+        }
+    }
+    .footer {
+        &-section {
+          flex-wrap: wrap;
+          h5 {
+            margin-bottom: 12px;
+          }
+        }
+      }
+      .backToTop {
+        right: 14px;
+      }
+         
+}
