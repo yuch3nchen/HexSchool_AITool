@@ -514,9 +514,9 @@ h4 {
   display: none;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 414px) {
   .container {
-    max-width: 351px;
+    max-width: 95%;
   }
   .header-section img {
     width: 50%;
